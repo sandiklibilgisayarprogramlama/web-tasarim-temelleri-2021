@@ -11,8 +11,16 @@ body{
    /*background-color: #d6b798;*/
    /*
    hex code tanımlamasında en yuksek ff, en düşük 00
-   */
+   
    background-image: url("img/bg.png");
+   background-repeat: no-repeat;
+   background-position: top center;
+   
+   repeat-x -> yatay tekrar eder
+   repeat-y -> dikey tekrar eder.
+   no-repeat html resmin sadece 1 kez tekrarına izin verir*/
+   background: url("img/bg.png") no-repeat right top;
+
 }
 
 div#banner{
@@ -21,6 +29,33 @@ div#banner{
     /* 100 pixel genişlik verdik.*/
     opacity: 0.4;
     /* opaklık değeri */
+    border-style: solid;
+    /*
+    kenarlık stilini belirlemek için kullanılır.
+    dotted, dashed,solid
+    */
+    /*border-width: 5px;*/
+    /*
+    kenarlık kalınlığını belirler
+    */
+    border-width:  25px 10px 4px 35px;
+    /*
+    üst
+    sağ
+    alt 
+    sol
+
+    border-width: 10px 5px;
+    10 px top, bottom
+    5 px rigth,left
+
+    */
+
+    border-color: #1060AA #909011;
+
+    border-left: rgb(200,0,100) solid 30px;
+
+    border-radius: 10px;
 }
 
 #saribaslik{
