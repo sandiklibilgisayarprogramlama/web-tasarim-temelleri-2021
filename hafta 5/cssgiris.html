@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        html etiketi seçici olarak kullanılabilir. 
+        */
+        body{ 
+            color: red;    
+        }
+        #baslik{ /* id seçicileri # ile başlar */
+           color: blue; 
+        } 
+        .sari{
+            color: yellow;   
+        }
+        p{
+            color: violet;
+        }
+        b, strong{
+            color: gray;
+        }
+        h1,h2,h3,h4,h5,h6{
+            color: yellow;
+        }
+        
+        h1#baslik{
+            color: turquoise;
+        }
+
+        /*
+        1. yol: html etiketi
+        2.yol: id özelliği
+        3. yol: class özelliği
+        4. yol: html etkiket,html etiket, html etiket ...
+        5. yol: html etiket#id, html_etiket.class
+        */
+        
+    </style>
+</head>
+<body >
+    <h1 id="baslik" >Merhaba CSS</h1>
+    <h1 class="sari" >Selam</h1>
+    <h2>h2 kodu</h2>
+
+    <h4>selam</h4>
+    <p>harika</p>
+    <p>naber</p>
+    <b>kalın 1</b>
+    <strong>kalın 2</strong>
+</body>
+</html>

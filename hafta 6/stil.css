@@ -1,0 +1,45 @@
+/*
+* universal selector
+sayfadaki tüm elemanları
+etkiler.
+*/
+*{
+    text-align: center;
+}
+body{
+   /* background-color: rgba(42, 82, 55,0.5); */
+   /*background-color: #d6b798;*/
+   /*
+   hex code tanımlamasında en yuksek ff, en düşük 00
+   */
+   background-image: url("img/bg.png");
+}
+
+div#banner{
+    background-color: #40aaff;
+    height: 100px;
+    /* 100 pixel genişlik verdik.*/
+    opacity: 0.4;
+    /* opaklık değeri */
+}
+
+#saribaslik{
+    color: yellow;
+}
+
+.kirmizibaslik{
+    color: rgb(200,0,100);
+}
+
+h1#saribaslik{
+
+}
+
+h1.saribaslik{
+    
+}
+
+p, h3, h4, h5{
+    color: brown;
+    font-weight: bold;
+}
