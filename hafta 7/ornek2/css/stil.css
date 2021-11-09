@@ -1,0 +1,31 @@
+body{
+    width: 1000px;
+    margin: auto;
+    height: 900px;
+}
+
+#top{
+    border: 1px solid red;
+    background-color: skyblue;
+    height: 30px;
+}
+
+#menu{
+    border: 1px solid blue;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    background-color: slateblue;
+}
+#ortaalan{
+height: 300px;
+border: 1px solid green;
+
+}
+#altalan{
+    border: 1px solid yellow;
+
+    height: 40px;
+}
+

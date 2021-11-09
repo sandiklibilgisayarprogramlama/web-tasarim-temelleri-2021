@@ -1,0 +1,23 @@
+body{
+}
+*{
+
+}
+#top{
+/*margin: 50px;
+margin-left: 60px;
+margin-top: 40px;
+margin-right: 10px;
+margin-bottom: 90px;
+*/
+margin: 50px 30px 100px 10px;
+border: 1px solid red;
+}
+#menu{
+    width: 400px;
+    margin: auto;
+    background-color: sandybrown;
+}
+.sariRenk{
+    color: #ffee00;
+}
