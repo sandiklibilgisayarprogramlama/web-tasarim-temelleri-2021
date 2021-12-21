@@ -1,0 +1,138 @@
+#ustAlan{
+    background-color: #1B567A;
+    height: 40px;
+    width: 100%;
+}
+
+#logoAlan{
+    background-color: #DBDADA;
+    height: 120px;
+}
+
+#menuAlan{
+    background-color: #4D4D4D;
+    line-height: 30px;
+    padding: 10px;
+}
+
+
+.ortala{
+    width: 80%;
+    margin: auto;
+}
+
+#ustAlan a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    line-height: 30px;
+}
+
+#ustAlan a:hover{
+    font-size: 16;
+    background-color: #31698F;
+}
+
+.sag{
+    float: right;
+}
+
+body{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #E9E9E9;
+}
+
+.solAlan{
+float: left;
+}
+
+#baslik{
+text-align: center;
+text-transform: uppercase;
+padding: 20px;
+line-height: 35px;
+font-size: 30px;
+font-weight: 400;
+}
+
+#menuAlan a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+#menuAlan a:hover{
+    background-color: #25719E;
+}
+
+#menuAlan a i{
+    margin-right: 5px;
+}
+
+#slider{
+    background-color: white;
+}
+
+#slider img{
+    width: 60%;
+    margin-left: 300px;
+}
+
+#duyuru{
+    float: left;
+    padding: 20px;
+    height: 400px;
+    width: 480px;
+}
+
+#etkinlik{
+    padding: 20px;
+    height: 400px;
+    float: right;
+    width: 480px;
+}
+
+.ustBaslik{
+    border-bottom: 3px dashed #B5B3B3;
+    margin-bottom: 10px;
+    padding: 3px 0px 3px 0px ;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.satir{
+    height: 70px;
+    border-bottom: 1px solid #B5B3B3;
+}
+
+.tarih{
+margin: 5px;
+float: left;
+padding: 10px;
+background-color: gray;
+color: white;
+outline-style: solid;
+outline-width: 4px;
+outline-color: white;
+}
+
+.gun{
+    border-bottom: 1px solid white;
+    padding:3px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.ay{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.icerikBaslik{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
