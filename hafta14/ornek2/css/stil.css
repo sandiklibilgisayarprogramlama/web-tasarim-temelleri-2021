@@ -1,0 +1,89 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: #F0F2F5;
+}
+
+#ortala{
+    width: 1000px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#title{
+float: left;
+width: 500px;
+padding: 20px;
+
+}
+
+#loginForm{
+    float: left;
+    height: 300px;
+background-color: white;
+border-radius: 4px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 20px;
+}
+
+#logo{
+color: #1877F2;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: 2px;
+margin-bottom: 20px;
+}
+
+#slogan{
+font-size: 25px;
+letter-spacing: 2px;
+}
+
+input[type="email"],input[type="password"]{
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    color: gray;
+    width: 300px;
+    padding:15px;
+    display: block;
+    margin-bottom: 15px;
+}
+input[type="text"]:focus{
+    border: 1px solid #1877F2;
+}
+
+input[type="submit"]{
+    font-size: 16px;
+    border: 0px;
+    background-color: #1877F2;
+    color: white;
+    padding: 15px;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    width: 300px;
+    margin: auto;
+}
+
+input[type="submit"]:hover{
+    background-color: #4267b2;
+}
+
+input[type="submit"].green{
+    background-color: #42b72a;
+}
+input[type="submit"].green:hover{
+    background-color: #42972a;
+}
+
+.link{
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #1877F2;
+    margin: 15px 0px 15px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
